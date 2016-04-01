@@ -1,0 +1,1300 @@
+{
+  "plannedDeviationsUnavailable": false,
+  "options": [
+    {
+      "totalDuration": 402,
+      "number": 1,
+      "legs": [{
+        "trainJourney": {
+          "departureTime": "2015-10-30T08:25:00+0100",
+          "identifier": "61.76.100000.30.10.2015.76.2351000.30.10.2015",
+          "arrivalTime": "2015-10-30T14:59:00+0100",
+          "departureStation": {
+            "number": 100000,
+            "countryCode": 76,
+            "name": "Oslo S"
+          },
+          "arrivalStation": {
+            "number": 2351000,
+            "countryCode": 76,
+            "name": "Bergen"
+          },
+          "train": {"number": 61}
+        },
+        "operationalMessages": [{
+          "head": "",
+          "ticker": "",
+          "act": true,
+          "icon": "WARN",
+          "id": "14699",
+          "text": "Toget kjørte ca. 58 minutter forsinket fra Oslo S.  | The train ran ca. 58 minutes delayed from Oslo S.",
+          "type": "JNY",
+          "pub": "",
+          "priority": 56,
+          "value": "",
+          "lead": ""
+        }],
+        "origin": {
+          "datetime": "2015-10-30T08:25:00+0100",
+          "rtTrack": "3",
+          "rtDatetime": "2015-10-30T09:24:00+0100",
+          "timeAccuracy": "REPORTED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP",
+              "BUS_STOP",
+              "OTHER_TRAINS_STOP"
+            ],
+            "name": "Oslo S",
+            "municipality": null,
+            "id": "A=1@O=Oslo S@X=10755333@Y=59910201@U=70@L=7600100@",
+            "coordLong": 10.755333,
+            "track": "3",
+            "zones": [{
+              "areaCode": null,
+              "faresystem": "RUTER",
+              "name": "1",
+              "id": 402,
+              "interoperabilityId": 227,
+              "network": 578000
+            }],
+            "coordLat": 59.910201,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7600100"
+              },
+              {
+                "type": "LISA",
+                "value": "100000"
+              }
+            ]
+          }
+        },
+        "destination": {
+          "datetime": "2015-10-30T14:59:00+0100",
+          "rtTrack": "3",
+          "rtDatetime": "2015-10-30T16:06:00+0100",
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP"
+            ],
+            "name": "Bergen",
+            "municipality": null,
+            "id": "A=1@O=Bergen@X=5334496@Y=60389829@U=70@L=7602351@",
+            "coordLong": 5.334496,
+            "track": "3",
+            "zones": null,
+            "coordLat": 60.389829,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7602351"
+              },
+              {
+                "type": "LISA",
+                "value": "2351000"
+              }
+            ]
+          }
+        },
+        "journeyDetailForRequestedJourney": null,
+        "type": "JNY",
+        "trainline": "",
+        "reachable": true,
+        "durationMinutes": 394,
+        "gisRouteRef": null,
+        "name": "61",
+        "transportMode": "NSB Regiontog",
+        "cancelled": false,
+        "footnotes": [
+          {
+            "name": "2.klasse",
+            "id": "2K"
+          },
+          {
+            "name": "Barne- og familievogn",
+            "id": "BF"
+          },
+          {
+            "name": "Barnekupe",
+            "id": "BK"
+          },
+          {
+            "name": "Dyr tillatt",
+            "id": "DT"
+          },
+          {
+            "name": "Gratis WiFi",
+            "id": "IT"
+          },
+          {
+            "name": "Te/Kaffe inkludert",
+            "id": "KO"
+          },
+          {
+            "name": "Tilrettelagt for rullestolbrukere",
+            "id": "RS"
+          },
+          {
+            "name": "Sykkelplass må reserveres",
+            "id": "SY"
+          },
+          {
+            "name": "Yield prices",
+            "id": "YP"
+          },
+          {
+            "name": "NSB MENY Kafé",
+            "id": "cB"
+          },
+          {
+            "name": "Reservering mulig",
+            "id": "rT"
+          },
+          {
+            "name": "<TO fi=\"7600100\" li=\"7602351\"><OC c=\"2u\" v=\"30\"><\/OC><\/TO>",
+            "id": "XO"
+          },
+          {
+            "name": "<PD i=\"7600100\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601404\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601413\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601421\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601617\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602313\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602315\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602317\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602319\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602320\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602322\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602324\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602330\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602335\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602342\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602351\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<TL><CT i=\"EL 18\" t=\"EL 18\" l=\"18\"><\/CT><CT i=\"A5-1\" t=\"A5-1\" l=\"25\"><A c=\"BWC\"><\/A><A c=\"KO\"><\/A><\/CT><CT i=\"BC5-3\" t=\"BC5-3\" l=\"25\"><A c=\"BWC\"><\/A><A c=\"WCS\"><\/A><\/CT><CT i=\"B5-6\" t=\"B5-6\" l=\"25\"><\/CT><CT i=\"FR5-1\" t=\"FR5-1\" l=\"25\"><A c=\"BST\"><\/A><\/CT><CT i=\"B5-3\" t=\"B5-3\" l=\"25\"><\/CT><CT i=\"B5-5\" t=\"B5-5\" l=\"25\"><\/CT><\/TL>",
+            "id": "XC"
+          },
+          {
+            "name": "<TC><GR g=\"18-2253\"><\/GR><GR g=\"+520-01\"><\/GR><GR g=\"H520-03\"><\/GR><GR g=\"+521-03\"><\/GR><GR g=\"+524-01\"><\/GR><\/TC>",
+            "id": "XT"
+          },
+          {
+            "name": "<GL><G i=\"18-2253\"><C i=\"2253\" n=\"\" t=\"EL 18\"><\/C><\/G><G i=\"+520-01\"><C i=\"26057\" n=\"\" t=\"A5-1\"><\/C><C i=\"26045\" n=\"\" t=\"BC5-3\"><\/C><C i=\"26034\" n=\"\" t=\"B5-6\"><\/C><\/G><G i=\"H520-03\"><C i=\"21718\" n=\"\" t=\"FR5-1\"><\/C><C i=\"26038\" n=\"\" t=\"B5-3\"><\/C><C i=\"26020\" n=\"\" t=\"B5-3\"><\/C><C i=\"26035\" n=\"\" t=\"B5-5\"><\/C><\/G><G i=\"+521-03\"><C i=\"26056\" n=\"\" t=\"B5-3\"><\/C><\/G><G i=\"+524-01\"><C i=\"26041\" n=\"\" t=\"B5-3\"><\/C><\/G><\/GL>",
+            "id": "XG"
+          }
+        ],
+        "journeyDetailRef": "1|1189|0|70|30102015",
+        "polyline": null,
+        "direction": "Bergen"
+      }],
+      "tripId": "T$A=1@O=Oslo S@L=7600100@a=128@$A=1@O=Bergen@L=7602351@a=128@$201510300825$201510301459$      61$",
+      "serviceDays": {
+        "irregularDays": "ikke 25. Des",
+        "planningPeriodEnd": "2016-06-11",
+        "planningPeriodStart": "2015-10-29",
+        "description": "daglig",
+        "serviceDays": "FFFFFFFFFFFFFFBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0"
+      }
+    },
+    {
+      "totalDuration": 414,
+      "number": 2,
+      "legs": [{
+        "trainJourney": {
+          "departureTime": "2015-10-30T12:03:00+0100",
+          "identifier": "601.76.100000.30.10.2015.76.2351000.30.10.2015",
+          "arrivalTime": "2015-10-30T18:58:00+0100",
+          "departureStation": {
+            "number": 100000,
+            "countryCode": 76,
+            "name": "Oslo S"
+          },
+          "arrivalStation": {
+            "number": 2351000,
+            "countryCode": 76,
+            "name": "Bergen"
+          },
+          "train": {"number": 601}
+        },
+        "operationalMessages": [],
+        "origin": {
+          "datetime": "2015-10-30T12:03:00+0100",
+          "rtTrack": "3",
+          "rtDatetime": "2015-10-30T12:04:00+0100",
+          "timeAccuracy": "REPORTED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP",
+              "BUS_STOP",
+              "OTHER_TRAINS_STOP"
+            ],
+            "name": "Oslo S",
+            "municipality": null,
+            "id": "A=1@O=Oslo S@X=10755333@Y=59910201@U=70@L=7600100@",
+            "coordLong": 10.755333,
+            "track": "3",
+            "zones": [{
+              "areaCode": null,
+              "faresystem": "RUTER",
+              "name": "1",
+              "id": 402,
+              "interoperabilityId": 227,
+              "network": 578000
+            }],
+            "coordLat": 59.910201,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7600100"
+              },
+              {
+                "type": "LISA",
+                "value": "100000"
+              }
+            ]
+          }
+        },
+        "destination": {
+          "datetime": "2015-10-30T18:58:00+0100",
+          "rtTrack": "3",
+          "rtDatetime": "2015-10-30T18:58:00+0100",
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP"
+            ],
+            "name": "Bergen",
+            "municipality": null,
+            "id": "A=1@O=Bergen@X=5334496@Y=60389829@U=70@L=7602351@",
+            "coordLong": 5.334496,
+            "track": "3",
+            "zones": null,
+            "coordLat": 60.389829,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7602351"
+              },
+              {
+                "type": "LISA",
+                "value": "2351000"
+              }
+            ]
+          }
+        },
+        "journeyDetailForRequestedJourney": null,
+        "type": "JNY",
+        "trainline": "",
+        "reachable": true,
+        "durationMinutes": 415,
+        "gisRouteRef": null,
+        "name": "601",
+        "transportMode": "NSB Regiontog",
+        "cancelled": false,
+        "footnotes": [
+          {
+            "name": "2.klasse",
+            "id": "2K"
+          },
+          {
+            "name": "Barne- og familievogn",
+            "id": "BF"
+          },
+          {
+            "name": "Barnevognplass",
+            "id": "BP"
+          },
+          {
+            "name": "Dyr tillatt",
+            "id": "DT"
+          },
+          {
+            "name": "Gratis WiFi",
+            "id": "IT"
+          },
+          {
+            "name": "Te/Kaffe inkludert",
+            "id": "KO"
+          },
+          {
+            "name": "Tilrettelagt for rullestolbrukere",
+            "id": "RS"
+          },
+          {
+            "name": "Sykkelplass må reserveres",
+            "id": "SY"
+          },
+          {
+            "name": "Yield prices",
+            "id": "YP"
+          },
+          {
+            "name": "NSB MENY Kafé",
+            "id": "cB"
+          },
+          {
+            "name": "Reservering mulig",
+            "id": "rT"
+          },
+          {
+            "name": "<TO fi=\"7600100\" li=\"7602351\"><OC c=\"2u\" v=\"30\"><\/OC><\/TO>",
+            "id": "XO"
+          },
+          {
+            "name": "<PD i=\"7600100\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601404\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601413\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601421\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601605\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601612\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601617\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602307\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602313\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602315\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602317\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602319\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602320\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602321\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602322\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602324\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602330\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602335\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602342\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602351\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<TL><CT i=\"EL 18\" t=\"EL 18\" l=\"18\"><\/CT><CT i=\"A7-1\" t=\"A7-1\" l=\"26\"><A c=\"KO\"><\/A><\/CT><CT i=\"BC7-1\" t=\"BC7-1\" l=\"26\"><A c=\"BWC\"><\/A><A c=\"WCS\"><\/A><\/CT><CT i=\"B7-6\" t=\"B7-6\" l=\"26\"><\/CT><CT i=\"FR7-3\" t=\"FR7-3\" l=\"26\"><A c=\"BST\"><\/A><\/CT><CT i=\"B7-4\" t=\"B7-4\" l=\"26\"><\/CT><CT i=\"B7-5\" t=\"B7-5\" l=\"26\"><\/CT><\/TL>",
+            "id": "XC"
+          },
+          {
+            "name": "<PD i=\"7602323\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<GL><G i=\"18-2247\"><C i=\"2247\" n=\"\" t=\"EL 18\"><\/C><\/G><G i=\"+701-05\"><C i=\"24715\" n=\"\" t=\"A7-1\"><\/C><C i=\"27045\" n=\"\" t=\"BC7-1\"><\/C><C i=\"27048\" n=\"\" t=\"B7-6\"><\/C><\/G><G i=\"H701-01\"><C i=\"21779\" n=\"\" t=\"FR7-3\"><\/C><C i=\"27006\" n=\"\" t=\"B7-4\"><\/C><C i=\"27008\" n=\"\" t=\"B7-4\"><\/C><C i=\"27015\" n=\"\" t=\"B7-5\"><\/C><\/G><\/GL>",
+            "id": "XG"
+          },
+          {
+            "name": "<TC><GR g=\"18-2247\"><\/GR><GR g=\"+701-05\"><\/GR><GR g=\"H701-01\"><\/GR><\/TC>",
+            "id": "XT"
+          }
+        ],
+        "journeyDetailRef": "1|1173|0|70|30102015",
+        "polyline": null,
+        "direction": "Bergen"
+      }],
+      "tripId": "T$A=1@O=Oslo S@L=7600100@a=128@$A=1@O=Bergen@L=7602351@a=128@$201510301203$201510301858$     601$",
+      "serviceDays": {
+        "irregularDays": "ikke 24., 31. Des",
+        "planningPeriodEnd": "2016-06-11",
+        "planningPeriodStart": "2015-10-29",
+        "description": "daglig",
+        "serviceDays": "FFFFFFFFFFFFFF7EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0"
+      }
+    },
+    {
+      "totalDuration": 397,
+      "number": 3,
+      "legs": [{
+        "trainJourney": {
+          "departureTime": "2015-10-30T15:25:00+0100",
+          "identifier": "63.76.100000.30.10.2015.76.2351000.30.10.2015",
+          "arrivalTime": "2015-10-30T22:02:00+0100",
+          "departureStation": {
+            "number": 100000,
+            "countryCode": 76,
+            "name": "Oslo S"
+          },
+          "arrivalStation": {
+            "number": 2351000,
+            "countryCode": 76,
+            "name": "Bergen"
+          },
+          "train": {"number": 63}
+        },
+        "operationalMessages": [],
+        "origin": {
+          "datetime": "2015-10-30T15:25:00+0100",
+          "rtTrack": "3",
+          "rtDatetime": "2015-10-30T15:25:00+0100",
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP",
+              "BUS_STOP",
+              "OTHER_TRAINS_STOP"
+            ],
+            "name": "Oslo S",
+            "municipality": null,
+            "id": "A=1@O=Oslo S@X=10755333@Y=59910201@U=70@L=7600100@",
+            "coordLong": 10.755333,
+            "track": "3",
+            "zones": [{
+              "areaCode": null,
+              "faresystem": "RUTER",
+              "name": "1",
+              "id": 402,
+              "interoperabilityId": 227,
+              "network": 578000
+            }],
+            "coordLat": 59.910201,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7600100"
+              },
+              {
+                "type": "LISA",
+                "value": "100000"
+              }
+            ]
+          }
+        },
+        "destination": {
+          "datetime": "2015-10-30T22:02:00+0100",
+          "rtTrack": "4",
+          "rtDatetime": "2015-10-30T22:02:00+0100",
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP"
+            ],
+            "name": "Bergen",
+            "municipality": null,
+            "id": "A=1@O=Bergen@X=5334496@Y=60389829@U=70@L=7602351@",
+            "coordLong": 5.334496,
+            "track": "4",
+            "zones": null,
+            "coordLat": 60.389829,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7602351"
+              },
+              {
+                "type": "LISA",
+                "value": "2351000"
+              }
+            ]
+          }
+        },
+        "journeyDetailForRequestedJourney": null,
+        "type": "JNY",
+        "trainline": "",
+        "reachable": true,
+        "durationMinutes": 397,
+        "gisRouteRef": null,
+        "name": "63",
+        "transportMode": "NSB Regiontog",
+        "cancelled": false,
+        "footnotes": [
+          {
+            "name": "2.klasse",
+            "id": "2K"
+          },
+          {
+            "name": "Barne- og familievogn",
+            "id": "BF"
+          },
+          {
+            "name": "Barnekupe",
+            "id": "BK"
+          },
+          {
+            "name": "Dyr tillatt",
+            "id": "DT"
+          },
+          {
+            "name": "Gratis WiFi",
+            "id": "IT"
+          },
+          {
+            "name": "Te/Kaffe inkludert",
+            "id": "KO"
+          },
+          {
+            "name": "Tilrettelagt for rullestolbrukere",
+            "id": "RS"
+          },
+          {
+            "name": "Sykkelplass må reserveres",
+            "id": "SY"
+          },
+          {
+            "name": "Yield prices",
+            "id": "YP"
+          },
+          {
+            "name": "NSB MENY Kafé",
+            "id": "cB"
+          },
+          {
+            "name": "Reservering mulig",
+            "id": "rT"
+          },
+          {
+            "name": "<TO fi=\"7600100\" li=\"7602351\"><OC c=\"2u\" v=\"30\"><\/OC><\/TO>",
+            "id": "XO"
+          },
+          {
+            "name": "<PD i=\"7600100\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601404\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601413\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601421\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601617\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602313\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602315\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602317\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602319\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602320\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602322\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602324\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602330\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602335\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602342\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602351\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<TL><CT i=\"EL 18\" t=\"EL 18\" l=\"18\"><\/CT><CT i=\"A7-1\" t=\"A7-1\" l=\"26\"><A c=\"KO\"><\/A><\/CT><CT i=\"BC7-1\" t=\"BC7-1\" l=\"26\"><A c=\"BWC\"><\/A><A c=\"WCS\"><\/A><\/CT><CT i=\"B7-6\" t=\"B7-6\" l=\"26\"><\/CT><CT i=\"FR7-3\" t=\"FR7-3\" l=\"26\"><A c=\"BST\"><\/A><\/CT><CT i=\"B7-4\" t=\"B7-4\" l=\"26\"><\/CT><CT i=\"B7-5\" t=\"B7-5\" l=\"26\"><\/CT><\/TL>",
+            "id": "XC"
+          },
+          {
+            "name": "<GL><G i=\"18-2260\"><C i=\"2260\" n=\"\" t=\"EL 18\"><\/C><\/G><G i=\"+701-03\"><C i=\"24722\" n=\"\" t=\"A7-1\"><\/C><C i=\"27041\" n=\"\" t=\"BC7-1\"><\/C><C i=\"27047\" n=\"\" t=\"B7-6\"><\/C><\/G><G i=\"H701-07\"><C i=\"21780\" n=\"\" t=\"FR7-3\"><\/C><C i=\"27005\" n=\"\" t=\"B7-4\"><\/C><C i=\"27010\" n=\"\" t=\"B7-4\"><\/C><C i=\"27017\" n=\"\" t=\"B7-5\"><\/C><\/G><G i=\"+702-03\"><\/G><G i=\"+703-04\"><C i=\"27022\" n=\"\" t=\"B7-4\"><\/C><\/G><\/GL>",
+            "id": "XG"
+          },
+          {
+            "name": "<TC><GR g=\"18-2260\"><\/GR><GR g=\"+701-03\"><\/GR><GR g=\"H701-07\"><\/GR><GR g=\"+702-03\"><\/GR><GR g=\"+703-04\"><\/GR><\/TC>",
+            "id": "XT"
+          }
+        ],
+        "journeyDetailRef": "1|1210|0|70|30102015",
+        "polyline": null,
+        "direction": "Bergen"
+      }],
+      "tripId": "T$A=1@O=Oslo S@L=7600100@a=128@$A=1@O=Bergen@L=7602351@a=128@$201510301525$201510302202$      63$",
+      "serviceDays": {
+        "irregularDays": "30. Okt t.o.m. 12. Des 2015",
+        "planningPeriodEnd": "2016-06-11",
+        "planningPeriodStart": "2015-10-29",
+        "description": "ikke daglig",
+        "serviceDays": "FFFFFFFFFFF80000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "totalDuration": 446,
+      "number": 4,
+      "legs": [{
+        "trainJourney": {
+          "departureTime": "2015-10-30T23:25:00+0100",
+          "identifier": "605.76.100000.30.10.2015.76.2351000.31.10.2015",
+          "arrivalTime": "2015-10-31T06:51:00+0100",
+          "departureStation": {
+            "number": 100000,
+            "countryCode": 76,
+            "name": "Oslo S"
+          },
+          "arrivalStation": {
+            "number": 2351000,
+            "countryCode": 76,
+            "name": "Bergen"
+          },
+          "train": {"number": 605}
+        },
+        "operationalMessages": [],
+        "origin": {
+          "datetime": "2015-10-30T23:25:00+0100",
+          "rtTrack": "3",
+          "rtDatetime": "2015-10-30T23:25:00+0100",
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP",
+              "BUS_STOP",
+              "OTHER_TRAINS_STOP"
+            ],
+            "name": "Oslo S",
+            "municipality": null,
+            "id": "A=1@O=Oslo S@X=10755333@Y=59910201@U=70@L=7600100@",
+            "coordLong": 10.755333,
+            "track": "3",
+            "zones": [{
+              "areaCode": null,
+              "faresystem": "RUTER",
+              "name": "1",
+              "id": 402,
+              "interoperabilityId": 227,
+              "network": 578000
+            }],
+            "coordLat": 59.910201,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7600100"
+              },
+              {
+                "type": "LISA",
+                "value": "100000"
+              }
+            ]
+          }
+        },
+        "destination": {
+          "datetime": "2015-10-31T06:51:00+0100",
+          "rtTrack": "4",
+          "rtDatetime": "2015-10-31T06:51:00+0100",
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP"
+            ],
+            "name": "Bergen",
+            "municipality": null,
+            "id": "A=1@O=Bergen@X=5334496@Y=60389829@U=70@L=7602351@",
+            "coordLong": 5.334496,
+            "track": null,
+            "zones": null,
+            "coordLat": 60.389829,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7602351"
+              },
+              {
+                "type": "LISA",
+                "value": "2351000"
+              }
+            ]
+          }
+        },
+        "journeyDetailForRequestedJourney": null,
+        "type": "JNY",
+        "trainline": "",
+        "reachable": true,
+        "durationMinutes": 446,
+        "gisRouteRef": null,
+        "name": "605",
+        "transportMode": "NSB Regiontog",
+        "cancelled": false,
+        "footnotes": [
+          {
+            "name": "2.klasse",
+            "id": "2K"
+          },
+          {
+            "name": "2-køys",
+            "id": "D "
+          },
+          {
+            "name": "Dyr tillatt",
+            "id": "DT"
+          },
+          {
+            "name": "Tilrettelagt for rullestolbrukere",
+            "id": "RS"
+          },
+          {
+            "name": "Single dvs.",
+            "id": "S "
+          },
+          {
+            "name": "Sykkelplass må reserveres",
+            "id": "SY"
+          },
+          {
+            "name": "Yield prices",
+            "id": "YP"
+          },
+          {
+            "name": "NSB MENY Kafé",
+            "id": "cB"
+          },
+          {
+            "name": "Reservering obligatorisk",
+            "id": "rR"
+          },
+          {
+            "name": "<TL><CT i=\"EL 18\" t=\"EL 18\" l=\"18\"><\/CT><CT i=\"WLAB-2\" t=\"WLAB-2\" l=\"27\"><A c=\"SLE\"><\/A><\/CT><CT i=\"FR7-3\" t=\"FR7-3\" l=\"26\"><A c=\"BST\"><\/A><\/CT><CT i=\"B7-4\" t=\"B7-4\" l=\"26\"><\/CT><CT i=\"B7-5\" t=\"B7-5\" l=\"26\"><\/CT><\/TL>",
+            "id": "XC"
+          },
+          {
+            "name": "<TO fi=\"7600100\" li=\"7602351\"><OC c=\"2u\" v=\"30\"><\/OC><\/TO>",
+            "id": "XO"
+          },
+          {
+            "name": "<PD i=\"7600100\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601404\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601413\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601421\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601605\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601612\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7601617\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602313\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602315\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602317\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602319\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602320\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602321\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602322\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602324\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602330\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602335\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602342\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<PD i=\"7602351\"><\/PD>",
+            "id": "XP"
+          },
+          {
+            "name": "<GL><G i=\"18-2241\"><C i=\"2241\" n=\"\" t=\"EL 18\"><\/C><\/G><G i=\"+W01-05\"><C i=\"21097\" n=\"\" t=\"WLAB-2\"><\/C><\/G><G i=\"HW01-04\"><C i=\"21095\" n=\"\" t=\"WLAB-2\"><\/C><C i=\"21102\" n=\"\" t=\"WLAB-2\"><\/C><\/G><G i=\"H701-04\"><C i=\"21776\" n=\"\" t=\"FR7-3\"><\/C><C i=\"27001\" n=\"\" t=\"B7-4\"><\/C><C i=\"27025\" n=\"\" t=\"B7-4\"><\/C><C i=\"27014\" n=\"\" t=\"B7-5\"><\/C><\/G><\/GL>",
+            "id": "XG"
+          },
+          {
+            "name": "<TC><GR g=\"18-2241\"><\/GR><GR g=\"+W01-05\"><\/GR><GR g=\"HW01-04\"><\/GR><GR g=\"H701-04\"><\/GR><\/TC>",
+            "id": "XT"
+          }
+        ],
+        "journeyDetailRef": "1|1179|0|70|30102015",
+        "polyline": null,
+        "direction": "Bergen"
+      }],
+      "tripId": "T$A=1@O=Oslo S@L=7600100@a=128@$A=1@O=Bergen@L=7602351@a=128@$201510302325$201510310651$     605$",
+      "serviceDays": {
+        "irregularDays": "ikke 24., 25., 31. Des, 24., 25. Mar",
+        "planningPeriodEnd": "2016-06-11",
+        "planningPeriodStart": "2015-10-29",
+        "description": "Ma - Fr, Sø",
+        "serviceDays": "DFBF7EFDFBF7EF1EBF7EFDFBF7EFDFBF7EFDE3F7EFDFBF7EFDFBF7EFC0"
+      }
+    },
+    {
+      "totalDuration": 394,
+      "number": 5,
+      "legs": [{
+        "trainJourney": {
+          "departureTime": "2015-10-31T08:25:00+0100",
+          "identifier": "61.76.100000.31.10.2015.76.2351000.31.10.2015",
+          "arrivalTime": "2015-10-31T14:59:00+0100",
+          "departureStation": {
+            "number": 100000,
+            "countryCode": 76,
+            "name": "Oslo S"
+          },
+          "arrivalStation": {
+            "number": 2351000,
+            "countryCode": 76,
+            "name": "Bergen"
+          },
+          "train": {"number": 61}
+        },
+        "operationalMessages": [],
+        "origin": {
+          "datetime": "2015-10-31T08:25:00+0100",
+          "rtTrack": null,
+          "rtDatetime": "2015-10-31T08:25:00+0100",
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP",
+              "BUS_STOP",
+              "OTHER_TRAINS_STOP"
+            ],
+            "name": "Oslo S",
+            "municipality": null,
+            "id": "A=1@O=Oslo S@X=10755333@Y=59910201@U=70@L=7600100@",
+            "coordLong": 10.755333,
+            "track": "3",
+            "zones": [{
+              "areaCode": null,
+              "faresystem": "RUTER",
+              "name": "1",
+              "id": 402,
+              "interoperabilityId": 227,
+              "network": 578000
+            }],
+            "coordLat": 59.910201,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7600100"
+              },
+              {
+                "type": "LISA",
+                "value": "100000"
+              }
+            ]
+          }
+        },
+        "destination": {
+          "datetime": "2015-10-31T14:59:00+0100",
+          "rtTrack": null,
+          "rtDatetime": "2015-10-31T14:59:00+0100",
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP"
+            ],
+            "name": "Bergen",
+            "municipality": null,
+            "id": "A=1@O=Bergen@X=5334496@Y=60389829@U=70@L=7602351@",
+            "coordLong": 5.334496,
+            "track": "3",
+            "zones": null,
+            "coordLat": 60.389829,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7602351"
+              },
+              {
+                "type": "LISA",
+                "value": "2351000"
+              }
+            ]
+          }
+        },
+        "journeyDetailForRequestedJourney": null,
+        "type": "JNY",
+        "trainline": "",
+        "reachable": true,
+        "durationMinutes": 394,
+        "gisRouteRef": null,
+        "name": "61",
+        "transportMode": "NSB Regiontog",
+        "cancelled": false,
+        "footnotes": [
+          {
+            "name": "2.klasse",
+            "id": "2K"
+          },
+          {
+            "name": "Barne- og familievogn",
+            "id": "BF"
+          },
+          {
+            "name": "Barnekupe",
+            "id": "BK"
+          },
+          {
+            "name": "Dyr tillatt",
+            "id": "DT"
+          },
+          {
+            "name": "Gratis WiFi",
+            "id": "IT"
+          },
+          {
+            "name": "Te/Kaffe inkludert",
+            "id": "KO"
+          },
+          {
+            "name": "Tilrettelagt for rullestolbrukere",
+            "id": "RS"
+          },
+          {
+            "name": "Sykkelplass må reserveres",
+            "id": "SY"
+          },
+          {
+            "name": "Yield prices",
+            "id": "YP"
+          },
+          {
+            "name": "NSB MENY Kafé",
+            "id": "cB"
+          },
+          {
+            "name": "Reservering mulig",
+            "id": "rT"
+          }
+        ],
+        "journeyDetailRef": "1|1188|0|70|31102015",
+        "polyline": null,
+        "direction": "Bergen"
+      }],
+      "tripId": "T$A=1@O=Oslo S@L=7600100@a=128@$A=1@O=Bergen@L=7602351@a=128@$201510310825$201510311459$      61$",
+      "serviceDays": {
+        "irregularDays": "ikke 25. Des",
+        "planningPeriodEnd": "2016-06-11",
+        "planningPeriodStart": "2015-10-29",
+        "description": "daglig",
+        "serviceDays": "FFFFFFFFFFFFFFBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0"
+      }
+    },
+    {
+      "totalDuration": 415,
+      "number": 6,
+      "legs": [{
+        "trainJourney": {
+          "departureTime": "2015-10-31T12:03:00+0100",
+          "identifier": "601.76.100000.31.10.2015.76.2351000.31.10.2015",
+          "arrivalTime": "2015-10-31T18:58:00+0100",
+          "departureStation": {
+            "number": 100000,
+            "countryCode": 76,
+            "name": "Oslo S"
+          },
+          "arrivalStation": {
+            "number": 2351000,
+            "countryCode": 76,
+            "name": "Bergen"
+          },
+          "train": {"number": 601}
+        },
+        "operationalMessages": [],
+        "origin": {
+          "datetime": "2015-10-31T12:03:00+0100",
+          "rtTrack": null,
+          "rtDatetime": null,
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP",
+              "BUS_STOP",
+              "OTHER_TRAINS_STOP"
+            ],
+            "name": "Oslo S",
+            "municipality": null,
+            "id": "A=1@O=Oslo S@X=10755333@Y=59910201@U=70@L=7600100@",
+            "coordLong": 10.755333,
+            "track": "3",
+            "zones": [{
+              "areaCode": null,
+              "faresystem": "RUTER",
+              "name": "1",
+              "id": 402,
+              "interoperabilityId": 227,
+              "network": 578000
+            }],
+            "coordLat": 59.910201,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7600100"
+              },
+              {
+                "type": "LISA",
+                "value": "100000"
+              }
+            ]
+          }
+        },
+        "destination": {
+          "datetime": "2015-10-31T18:58:00+0100",
+          "rtTrack": null,
+          "rtDatetime": null,
+          "timeAccuracy": "PROGNOSED",
+          "location": {
+            "types": [
+              "REGION_TRAIN_STOP",
+              "LOCAL_TRAIN_STOP"
+            ],
+            "name": "Bergen",
+            "municipality": null,
+            "id": "A=1@O=Bergen@X=5334496@Y=60389829@U=70@L=7602351@",
+            "coordLong": 5.334496,
+            "track": "3",
+            "zones": null,
+            "coordLat": 60.389829,
+            "alternativeIds": [
+              {
+                "type": "RITA_ALTERNATIVE",
+                "value": "7602351"
+              },
+              {
+                "type": "LISA",
+                "value": "2351000"
+              }
+            ]
+          }
+        },
+        "journeyDetailForRequestedJourney": null,
+        "type": "JNY",
+        "trainline": "",
+        "reachable": true,
+        "durationMinutes": 415,
+        "gisRouteRef": null,
+        "name": "601",
+        "transportMode": "NSB Regiontog",
+        "cancelled": false,
+        "footnotes": [
+          {
+            "name": "2.klasse",
+            "id": "2K"
+          },
+          {
+            "name": "Barne- og familievogn",
+            "id": "BF"
+          },
+          {
+            "name": "Barnevognplass",
+            "id": "BP"
+          },
+          {
+            "name": "Dyr tillatt",
+            "id": "DT"
+          },
+          {
+            "name": "Gratis WiFi",
+            "id": "IT"
+          },
+          {
+            "name": "Te/Kaffe inkludert",
+            "id": "KO"
+          },
+          {
+            "name": "Tilrettelagt for rullestolbrukere",
+            "id": "RS"
+          },
+          {
+            "name": "Sykkelplass må reserveres",
+            "id": "SY"
+          },
+          {
+            "name": "Yield prices",
+            "id": "YP"
+          },
+          {
+            "name": "NSB MENY Kafé",
+            "id": "cB"
+          },
+          {
+            "name": "Reservering mulig",
+            "id": "rT"
+          }
+        ],
+        "journeyDetailRef": "1|1173|0|70|31102015",
+        "polyline": null,
+        "direction": "Bergen"
+      }],
+      "tripId": "T$A=1@O=Oslo S@L=7600100@a=128@$A=1@O=Bergen@L=7602351@a=128@$201510311203$201510311858$     601$",
+      "serviceDays": {
+        "irregularDays": "ikke 24., 31. Des",
+        "planningPeriodEnd": "2016-06-11",
+        "planningPeriodStart": "2015-10-29",
+        "description": "daglig",
+        "serviceDays": "FFFFFFFFFFFFFF7EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0"
+      }
+    }
+  ],
+  "scrollForth": "1|OF|MTµ11µ6483µ6483µ6898µ6898µ0µ0µ5µ6266µ5µ-2147479550µ0µ1µ2|PDHµ635bad21f0fc9ff1c55bc77180c7781e",
+  "messages": null,
+  "scrollBack": "1|OB|MTµ11µ4825µ4825µ5219µ5219µ0µ0µ4µ5458µ-1µ4098µ4980µ1µ1|PDHµ635bad21f0fc9ff1c55bc77180c7781e"
+}

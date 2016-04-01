@@ -1,0 +1,517 @@
+{"journeyDetails": {
+  "operationalMessages": [
+    {
+      "head": "HaCon Test 4 Asker",
+      "ticker": "",
+      "act": true,
+      "icon": "INFO",
+      "id": "373",
+      "text": "nn",
+      "type": "UNDEF",
+      "pub": "",
+      "priority": 100,
+      "value": "",
+      "lead": ""
+    },
+    {
+      "head": "",
+      "ticker": "",
+      "act": true,
+      "icon": "WARN",
+      "id": "14699",
+      "text": "Toget kjørte ca. 58 minutter forsinket fra Oslo S.  | The train ran ca. 58 minutes delayed from Oslo S.",
+      "type": "JNY",
+      "pub": "",
+      "priority": 56,
+      "value": "",
+      "lead": ""
+    }
+  ],
+  "stops": [
+    {
+      "rtArrivaltime": null,
+      "rtTrack": "3",
+      "arrivalTimeAccuracy": null,
+      "lon": 10.755333,
+      "departuretime": "2015-10-30T08:25:00+0100",
+      "departureTimeAccuracy": "REPORTED",
+      "name": "Oslo S",
+      "arrivaltime": null,
+      "station": {
+        "number": 100000,
+        "countryCode": 76,
+        "name": "Oslo S"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Oslo S@X=10755333@Y=59910201@U=70@L=7600100@",
+      "boardingRule": "BOARDING_ONLY",
+      "rtDeparturetime": "2015-10-30T09:24:00+0100",
+      "track": "3",
+      "lat": 59.910201
+    },
+    {
+      "rtArrivaltime": "2015-10-30T09:33:00+0100",
+      "rtTrack": "2",
+      "arrivalTimeAccuracy": "REPORTED",
+      "lon": 10.636576,
+      "departuretime": "2015-10-30T08:36:00+0100",
+      "departureTimeAccuracy": "REPORTED",
+      "name": "Lysaker",
+      "arrivaltime": null,
+      "station": {
+        "number": 1404000,
+        "countryCode": 76,
+        "name": "Lysaker"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Lysaker@X=10636576@Y=59913482@U=70@L=7601404@",
+      "boardingRule": "BOARDING_ONLY",
+      "rtDeparturetime": "2015-10-30T09:36:00+0100",
+      "track": "2",
+      "lat": 59.913482
+    },
+    {
+      "rtArrivaltime": "2015-10-30T09:46:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "REPORTED",
+      "lon": 10.434553,
+      "departuretime": "2015-10-30T08:46:00+0100",
+      "departureTimeAccuracy": "REPORTED",
+      "name": "Asker",
+      "arrivaltime": null,
+      "station": {
+        "number": 1413000,
+        "countryCode": 76,
+        "name": "Asker"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Asker@X=10434553@Y=59833748@U=70@L=7601413@",
+      "boardingRule": "BOARDING_ONLY",
+      "rtDeparturetime": "2015-10-30T09:48:00+0100",
+      "track": "1",
+      "lat": 59.833748
+    },
+    {
+      "rtArrivaltime": "2015-10-30T09:58:00+0100",
+      "rtTrack": "5",
+      "arrivalTimeAccuracy": "REPORTED",
+      "lon": 10.204842,
+      "departuretime": "2015-10-30T09:00:00+0100",
+      "departureTimeAccuracy": "REPORTED",
+      "name": "Drammen",
+      "arrivaltime": null,
+      "station": {
+        "number": 1421000,
+        "countryCode": 76,
+        "name": "Drammen"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Drammen@X=10204842@Y=59740161@U=70@L=7601421@",
+      "boardingRule": "BOARDING_ONLY",
+      "rtDeparturetime": "2015-10-30T10:04:00+0100",
+      "track": "5",
+      "lat": 59.740161
+    },
+    {
+      "rtArrivaltime": "2015-10-30T10:54:00+0100",
+      "rtTrack": "5",
+      "arrivalTimeAccuracy": "REPORTED",
+      "lon": 10.249186,
+      "departuretime": "2015-10-30T09:54:00+0100",
+      "departureTimeAccuracy": "REPORTED",
+      "name": "Hønefoss",
+      "arrivaltime": "2015-10-30T09:52:00+0100",
+      "station": {
+        "number": 1617000,
+        "countryCode": 76,
+        "name": "Hï¿½nefoss"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Hønefoss@X=10249186@Y=60169027@U=70@L=7601617@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T10:58:00+0100",
+      "track": "5",
+      "lat": 60.169027
+    },
+    {
+      "rtArrivaltime": "2015-10-30T12:15:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "REPORTED",
+      "lon": 9.113327,
+      "departuretime": "2015-10-30T11:03:00+0100",
+      "departureTimeAccuracy": "REPORTED",
+      "name": "Nesbyen",
+      "arrivaltime": "2015-10-30T11:02:00+0100",
+      "station": {
+        "number": 2313000,
+        "countryCode": 76,
+        "name": "Nesbyen"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Nesbyen@X=9113327@Y=60576796@U=70@L=7602313@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T12:17:00+0100",
+      "track": "1",
+      "lat": 60.576796
+    },
+    {
+      "rtArrivaltime": "2015-10-30T12:27:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "REPORTED",
+      "lon": 8.971333,
+      "departuretime": "2015-10-30T11:16:00+0100",
+      "departureTimeAccuracy": "REPORTED",
+      "name": "Gol",
+      "arrivaltime": "2015-10-30T11:14:00+0100",
+      "station": {
+        "number": 2315000,
+        "countryCode": 76,
+        "name": "Gol"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Gol@X=8971333@Y=60699049@U=70@L=7602315@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T12:30:00+0100",
+      "track": "1",
+      "lat": 60.699049
+    },
+    {
+      "rtArrivaltime": "2015-10-30T12:45:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 8.562378,
+      "departuretime": "2015-10-30T11:36:00+0100",
+      "departureTimeAccuracy": "PROGNOSED",
+      "name": "Ål",
+      "arrivaltime": "2015-10-30T11:34:00+0100",
+      "station": {
+        "number": 2317000,
+        "countryCode": 76,
+        "name": "ï¿½l"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Ål@X=8562378@Y=60626263@U=70@L=7602317@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T12:45:00+0100",
+      "track": "1",
+      "lat": 60.626263
+    },
+    {
+      "rtArrivaltime": "2015-10-30T13:04:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 8.206648,
+      "departuretime": "2015-10-30T11:57:00+0100",
+      "departureTimeAccuracy": "PROGNOSED",
+      "name": "Geilo",
+      "arrivaltime": "2015-10-30T11:54:00+0100",
+      "station": {
+        "number": 2319000,
+        "countryCode": 76,
+        "name": "Geilo"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Geilo@X=8206648@Y=60534717@U=70@L=7602319@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T13:04:00+0100",
+      "track": "1",
+      "lat": 60.534717
+    },
+    {
+      "rtArrivaltime": "2015-10-30T13:14:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 8.044869,
+      "departuretime": "2015-10-30T12:08:00+0100",
+      "departureTimeAccuracy": "PROGNOSED",
+      "name": "Ustaoset",
+      "arrivaltime": "2015-10-30T12:07:00+0100",
+      "station": {
+        "number": 2320000,
+        "countryCode": 76,
+        "name": "Ustaoset"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Ustaoset@X=8044869@Y=60496549@U=70@L=7602320@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T13:14:00+0100",
+      "track": "1",
+      "lat": 60.496549
+    },
+    {
+      "rtArrivaltime": "2015-10-30T13:40:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 7.504123,
+      "departuretime": "2015-10-30T12:35:00+0100",
+      "departureTimeAccuracy": "PROGNOSED",
+      "name": "Finse",
+      "arrivaltime": "2015-10-30T12:33:00+0100",
+      "station": {
+        "number": 2322000,
+        "countryCode": 76,
+        "name": "Finse"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Finse@X=7504123@Y=60601894@U=70@L=7602322@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T13:40:00+0100",
+      "track": "1",
+      "lat": 60.601894
+    },
+    {
+      "rtArrivaltime": "2015-10-30T14:06:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 7.122801,
+      "departuretime": "2015-10-30T13:01:00+0100",
+      "departureTimeAccuracy": "PROGNOSED",
+      "name": "Myrdal",
+      "arrivaltime": "2015-10-30T12:59:00+0100",
+      "station": {
+        "number": 2324000,
+        "countryCode": 76,
+        "name": "Myrdal"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Myrdal@X=7122801@Y=60735240@U=70@L=7602324@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T14:06:00+0100",
+      "track": "1",
+      "lat": 60.73524
+    },
+    {
+      "rtArrivaltime": "2015-10-30T14:49:00+0100",
+      "rtTrack": "2",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 6.410711,
+      "departuretime": "2015-10-30T13:45:00+0100",
+      "departureTimeAccuracy": "PROGNOSED",
+      "name": "Voss",
+      "arrivaltime": "2015-10-30T13:42:00+0100",
+      "station": {
+        "number": 2330000,
+        "countryCode": 76,
+        "name": "Voss"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Voss@X=6410711@Y=60629230@U=70@L=7602330@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T14:49:00+0100",
+      "track": "1",
+      "lat": 60.62923
+    },
+    {
+      "rtArrivaltime": "2015-10-30T15:19:00+0100",
+      "rtTrack": "1",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 5.81603,
+      "departuretime": "2015-10-30T14:13:00+0100",
+      "departureTimeAccuracy": "PROGNOSED",
+      "name": "Dale",
+      "arrivaltime": "2015-10-30T14:12:00+0100",
+      "station": {
+        "number": 2335000,
+        "countryCode": 76,
+        "name": "Dale"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Dale@X=5816030@Y=60586226@U=70@L=7602335@",
+      "boardingRule": "STANDARD",
+      "rtDeparturetime": "2015-10-30T15:19:00+0100",
+      "track": "1",
+      "lat": 60.586226
+    },
+    {
+      "rtArrivaltime": "2015-10-30T15:53:00+0100",
+      "rtTrack": "4",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 5.466709,
+      "departuretime": null,
+      "departureTimeAccuracy": "PROGNOSED",
+      "name": "Arna",
+      "arrivaltime": "2015-10-30T14:46:00+0100",
+      "station": {
+        "number": 2342000,
+        "countryCode": 76,
+        "name": "Arna"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Arna@X=5466709@Y=60420258@U=70@L=7602342@",
+      "boardingRule": "DISEMBARKING_ONLY",
+      "rtDeparturetime": "2015-10-30T15:53:00+0100",
+      "track": null,
+      "lat": 60.420258
+    },
+    {
+      "rtArrivaltime": "2015-10-30T16:06:00+0100",
+      "rtTrack": "3",
+      "arrivalTimeAccuracy": "PROGNOSED",
+      "lon": 5.334496,
+      "departuretime": null,
+      "departureTimeAccuracy": null,
+      "name": "Bergen",
+      "arrivaltime": "2015-10-30T14:59:00+0100",
+      "station": {
+        "number": 2351000,
+        "countryCode": 76,
+        "name": "Bergen"
+      },
+      "cancelled": false,
+      "id": "A=1@O=Bergen@X=5334496@Y=60389829@U=70@L=7602351@",
+      "boardingRule": "DISEMBARKING_ONLY",
+      "rtDeparturetime": null,
+      "track": "3",
+      "lat": 60.389829
+    }
+  ],
+  "realtimeSummary": {
+    "regularBundle": {"text": [
+      {
+        "language": "NO_no",
+        "text": "74 min forsinket ved avgang fra Gol"
+      },
+      {
+        "language": "EN_en",
+        "text": "74 minutes delayed when leaving Gol"
+      }
+    ]},
+    "longBundle": {"text": [
+      {
+        "language": "NO_no",
+        "text": "74 min forsinket ved avgang fra Gol"
+      },
+      {
+        "language": "EN_en",
+        "text": "74 minutes delayed when leaving Gol"
+      }
+    ]}
+  },
+  "footnotes": [
+    {
+      "name": "2.klasse",
+      "id": "2K"
+    },
+    {
+      "name": "Barne- og familievogn",
+      "id": "BF"
+    },
+    {
+      "name": "Barnekupe",
+      "id": "BK"
+    },
+    {
+      "name": "Dyr tillatt",
+      "id": "DT"
+    },
+    {
+      "name": "Gratis WiFi",
+      "id": "IT"
+    },
+    {
+      "name": "Te/Kaffe inkludert",
+      "id": "KO"
+    },
+    {
+      "name": "Tilrettelagt for rullestolbrukere",
+      "id": "RS"
+    },
+    {
+      "name": "Sykkelplass må reserveres",
+      "id": "SY"
+    },
+    {
+      "name": "Yield prices",
+      "id": "YP"
+    },
+    {
+      "name": "NSB MENY Kafé",
+      "id": "cB"
+    },
+    {
+      "name": "Reservering mulig",
+      "id": "rT"
+    },
+    {
+      "name": "<TO fi=\"7600100\" li=\"7602351\"><OC c=\"2u\" v=\"30\"><\/OC><\/TO>",
+      "id": "XO"
+    },
+    {
+      "name": "<PD i=\"7600100\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7601404\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7601413\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7601421\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7601617\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602313\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602315\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602317\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602319\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602320\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602322\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602324\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602330\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602335\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602342\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<PD i=\"7602351\"><\/PD>",
+      "id": "XP"
+    },
+    {
+      "name": "<TL><CT i=\"EL 18\" t=\"EL 18\" l=\"18\"><\/CT><CT i=\"A5-1\" t=\"A5-1\" l=\"25\"><A c=\"BWC\"><\/A><A c=\"KO\"><\/A><\/CT><CT i=\"BC5-3\" t=\"BC5-3\" l=\"25\"><A c=\"BWC\"><\/A><A c=\"WCS\"><\/A><\/CT><CT i=\"B5-6\" t=\"B5-6\" l=\"25\"><\/CT><CT i=\"FR5-1\" t=\"FR5-1\" l=\"25\"><A c=\"BST\"><\/A><\/CT><CT i=\"B5-3\" t=\"B5-3\" l=\"25\"><\/CT><CT i=\"B5-5\" t=\"B5-5\" l=\"25\"><\/CT><\/TL>",
+      "id": "XC"
+    },
+    {
+      "name": "<TC><GR g=\"18-2253\"><\/GR><GR g=\"+520-01\"><\/GR><GR g=\"H520-03\"><\/GR><GR g=\"+521-03\"><\/GR><GR g=\"+524-01\"><\/GR><\/TC>",
+      "id": "XT"
+    },
+    {
+      "name": "<GL><G i=\"18-2253\"><C i=\"2253\" n=\"\" t=\"EL 18\"><\/C><\/G><G i=\"+520-01\"><C i=\"26057\" n=\"\" t=\"A5-1\"><\/C><C i=\"26045\" n=\"\" t=\"BC5-3\"><\/C><C i=\"26034\" n=\"\" t=\"B5-6\"><\/C><\/G><G i=\"H520-03\"><C i=\"21718\" n=\"\" t=\"FR5-1\"><\/C><C i=\"26038\" n=\"\" t=\"B5-3\"><\/C><C i=\"26020\" n=\"\" t=\"B5-3\"><\/C><C i=\"26035\" n=\"\" t=\"B5-5\"><\/C><\/G><G i=\"+521-03\"><C i=\"26056\" n=\"\" t=\"B5-3\"><\/C><\/G><G i=\"+524-01\"><C i=\"26041\" n=\"\" t=\"B5-3\"><\/C><\/G><\/GL>",
+      "id": "XG"
+    }
+  ],
+  "plannedDeviations": []
+}}
